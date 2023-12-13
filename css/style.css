@@ -34,15 +34,24 @@ a{
     color: white;
 }
 #homeLogo{
-    height: 70%;
-    width: 5%;
-    margin-top: 0.5vh;
+    margin-left: 2vw;
+    margin-top: 15% ;
+    height: 60%;
+    width: 100%;
 }
 #homeAchtergrondTop{
+
     border-radius: 70px;
     height: 80%;
 }
+#homeknop{
+  
+    opacity: 0%;
+    height: 70%;
+    width: 100%;
+}
 #introHomeCon{
+    
     display: flex;
     width: 100vw;
     height: 55vw;
