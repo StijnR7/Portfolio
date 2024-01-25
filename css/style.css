@@ -10,6 +10,15 @@ header {
   height: 6vh;
   background-color: #022b3a;
 }
+h1{
+  color: white;
+  font-size: 40px;
+}
+h4{
+  font-weight: 325;
+  font-size: 20px;
+  
+}
 nav {
   padding: 1vw;
   display: flex;
@@ -18,6 +27,7 @@ nav {
   margin-left: 20vw;
   width: 50vw;
   font-weight: 500;
+  
 }
 #headerlijn {
   position: absolute;
@@ -29,6 +39,7 @@ nav {
 a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 #homeLogo {
   margin-left: 2vw;
@@ -55,8 +66,8 @@ a {
 .paarsblok {
   display: flex;
   flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 40vw;
   border-radius: 69px;
   height: 8vw;
@@ -68,7 +79,7 @@ a {
   font-weight: 600;
   color: white;
 }
-#paarsTxtKl{
+#paarsTxtKl {
   color: white;
   font-weight: 500;
   font-size: 2vw;
@@ -84,15 +95,15 @@ a {
 }
 #sec2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
 }
 #aboutmeCon {
   display: flex;
-  position: absolute;
+
   text-align: center;
-  
-  align-items: center;
+  flex-direction: row;
+
   flex-direction: column;
   width: 31vw;
   height: 30vw;
@@ -106,18 +117,25 @@ a {
 }
 #mijFoto {
   border-radius: 100%;
+  width: 30%;
+  border-width: 2px;
+  border-style: solid;
+}
+#mijFotoHome {
+  border-radius: 100%;
   width: 50%;
   border-width: 2px;
   border-style: solid;
 }
 #aboutMeTxt {
-font-weight: 600;
-font-size: 1.5vw;
-padding: 5%;
+  font-weight: 600;
+  font-size: 1.5vw;
+  padding: 5%;
+  line-height: 30px;
 }
-#aboutMeTitel{
+#aboutMeTitel {
   font-size: 2.5vw;
-  padding-top:4%;
+  padding-top: 4%;
   padding-bottom: 5%;
   color: black;
 }
@@ -126,7 +144,7 @@ padding: 5%;
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  height: 110vh;
+  height: 90vh;
   margin-top: 100px;
 }
 #tCon {
@@ -136,110 +154,73 @@ padding: 5%;
   height: 15%;
   margin-bottom: 100px;
 }
+
 #titel {
   width: 30%;
   height: 100%;
+  text-align: center;
   background-color: #022b3a;
   border-radius: 69px;
 }
+
 #skillsCon {
   display: flex;
   justify-content: space-evenly;
-  height: 100%;
+  height: 50%;
   width: 90%;
 }
+
 .skillstxt {
   border-radius: 69px;
   background-color: #1f7a8c;
-  width: 30%;
+  width: 35%;
   height: 100%;
+  text-align: center;
+  
+  
+}
+#stxt{
+  text-align: center;
+  line-height: 35px;
+  padding: 40px;
+  
 }
 #sec4 {
   display: flex;
   margin-top: 20vh;
   height: 50vh;
   width: 100vw;
+  gap: 30px;
 }
 #werkCon {
   width: 60%;
   border-radius: 69px;
-  height: 100%;
+  height: 60%;
   margin-left: 7.5%;
   background-color: #bfdbf7;
+  line-height: 35px;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#werkCon h1{
+  color: black;
+  
 }
 
-@media screen and (max-width: 600px) {
-  #homeAchtergrondTop {
-    width: 100%;
-    border-radius: 0px;
-  }
-  .paarsblok {
-    margin-left: 0px;
-    width: 100%;
-  }
-  #skillsCon {
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    gap: 5%;
-  }
-  .skillstxt {
-    width: 80%;
-    margin-right: 0px;
-  }
 
-  #aboutMeTxt {
-    height: 100%;
-    width: 60%;
-  }
-  #mijFoto {
-    width: 30%;
-    height: 50%;
-  }
-  #tCon {
-    margin-bottom: 10%;
-  }
-  #introHomeCon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    margin-top: 0vw;
-  }
 
-  #paarsCon {
-    margin-left: 0px;
-    margin-right: 0px;
-    height: 40vw;
-    width: 80%;
-    gap: 5%;
-  }
-  nav {
-    font-size: 80%;
-    margin-left: 15%;
-    gap: 30px;
-  }
-  #homeLogo {
-    width: 10%;
-    margin-right: 5%;
-  }
-  #werkCon {
-    width: 90%;
-    margin-left: 5%;
-  }
-  #sec4 {
-    margin-top: 10vh;
-    display: flex;
-  }
-  #titel {
-    width: 80%;
-  }
-}
 #workCon {
   width: 70%;
   border-radius: 69px;
   height: 100%;
   background-color: #bfdbf7;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 5px;
+  line-height: 150%;
 }
 #Wsec1 {
   margin-top: 20vh;
@@ -247,6 +228,9 @@ padding: 5%;
   height: 60vh;
   display: flex;
   justify-content: center;
+}
+#profielFoto {
+  display: none;
 }
 #cSec1 {
   display: flex;
@@ -311,4 +295,135 @@ padding: 5%;
   height: 10%;
   width: 30%;
   background-color: #1f7a8c;
+}
+#contactForm {
+  width: 45%;
+  height: 700px;
+  padding: 5%;
+  border-radius: 69px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f7a8c;
+  justify-content: space-between;
+}
+#inputMessage {
+  color: white;
+  background-color: #022b3a;
+  height: 60%;
+  border: none;
+  border-radius: 69px;
+  padding-left: 15px;
+  padding-top: 30px;
+  resize: none;
+}
+.inputNaamEnEmail {
+  color: white;
+  background-color: #022b3a;
+  border: none;
+  height: 75px;
+  border-radius: 69px;
+  padding-left: 15px;
+}
+#submitKnop {
+  width: 20%;
+  margin-left: 80%;
+  height: 40px;
+  background-color: #022b3a;
+  border-radius: 69px;
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+#infoBlok {
+  text-align: center;
+  line-height: 250%;
+}
+
+@media only screen and (max-width: 600px) {
+  #mijFotoHome {
+    display: none;
+  }
+  #skillsCon {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #homeAchtergrondTop {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .paarsblok {
+    margin-left: 0px;
+    width: 100%;
+  }
+  #skillsCon {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 5%;
+  }
+  .skillstxt {
+    width: 80%;
+    margin-right: 0px;
+  }
+
+  #aboutMeTxt {
+    display: flex;
+    padding: 10px;
+   
+    
+    
+    width: 60%;
+    
+  }
+ 
+  #mijFoto {
+    width: 30%;
+    height: 50%;
+  }
+  #tCon {
+    margin-bottom: 10%;
+  }
+  #introHomeCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 0vw;
+  }
+
+  #paarsCon {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 40vw;
+    width: 80%;
+    gap: 5%;
+  }
+
+  #homeLogo {
+    width: 21px;
+    margin-right: 5%;
+  }
+  #werkCon {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #sec4 {
+    margin-top: 10vh;
+    display: flex;
+  }
+  #titel {
+    width: 80%;
+  }
+
+  #profielFoto{
+    position: relative;
+    left: 126px;
+    bottom: 102px;
+  }
+  #profielFoto img{
+    border-radius: 100px;
+    width: 158px;
+  }
 }

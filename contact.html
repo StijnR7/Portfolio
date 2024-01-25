@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link
-    href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="index.html">
-            <img id="homeLogo" src="img/house-solid.svg" alt="Home-icon">
-        </a>
-        <div id="headerlijn"></div>
-        <nav>
-            <a href="aboutme.html">About me</a>
-            <a href="work.html">Work</a>
-            <a href="contact.html">Contact</a>
-
-        </nav>
+      <a href="index.html">
+        <img id="homeLogo" src="img/house-solid.svg" alt="Home-icon" />
+      </a>
+      <div id="headerlijn"></div>
+      <nav>
+        <a href="aboutme.html">About me</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </header>
     <main>
-        <section id="cSec1">
-            <div></div>
-            <img src="img/image 9.png" alt="">
-        </section>
-<section id="cSec2" >
-    <div id="contactCon" >
-        <div id="contactCon2">
-            <div class="tekst"></div>
-            <div class="tekst"></div>
-        </div>
-        <div></div>
-    
-    <div id="berichtCon">
-        <div id="stuurknop"></div>
-        
-    </div></div>
-</section>
-</main>
-    <footer>
+      <section id="cSec1">
+        <div id="infoBlok"> <h1>Contactinformatie</h1><br><h2>Stijn Reits<br>+31 06 20753575<br>Nijmegenstijn@gmail.com<br>Nijmegen, Tolhuis</h2></div>
+        <img src="img/image 9.png" alt="" />
+      </section>
+      <section id="cSec2">
+        <form id="contactForm">
+          <input class="inputNaamEnEmail" placeholder="Name" type="text" />
 
-    </footer>
-</body>
+          <input class="inputNaamEnEmail" placeholder="E-mail" type="text" />
+          <textarea
+            name=""
+            id="inputMessage"
+            cols="30"
+            rows="10"
+            placeholder="Message..."
+          ></textarea>
+          <button id="submitKnop" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
